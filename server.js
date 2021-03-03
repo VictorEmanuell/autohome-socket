@@ -1,5 +1,7 @@
 const net = require('net')
 
+console.log($PORT)
+
 const handleConnection = socket => {
     console.log("Alguém se conectou!")
     socket.on('data', data => {
