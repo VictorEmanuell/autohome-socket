@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "net": "^1.0.2"
+    "net": "^1.0.2",
+    "public-ip": "^4.0.3"
   },
   "devDependencies": {},
   "scripts": {
