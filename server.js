@@ -9,4 +9,4 @@ const handleConnection = socket => {
 
 const server = net.createServer(handleConnection)
 
-server.listen(4000)
+server.listen($PORT)
