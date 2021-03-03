@@ -1,6 +1,7 @@
 const net = require('net')
+const port = process.env.PORT
 
-console.log($PORT)
+console.log(port)
 
 const handleConnection = socket => {
     console.log("Alguém se conectou!")
@@ -11,4 +12,4 @@ const handleConnection = socket => {
 
 const server = net.createServer(handleConnection)
 
-server.listen($PORT)
+server.listen(port)
