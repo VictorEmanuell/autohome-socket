@@ -1,5 +1,10 @@
+const publicIp = require('public-ip')
 const net = require('net')
 const port = process.env.PORT
+
+(async () => {
+    console.log(await publicIp.v4())
+})
 
 console.log(port)
 
